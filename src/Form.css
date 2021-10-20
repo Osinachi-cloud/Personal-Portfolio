@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.contact-section{
+    display:flex;
+    background-color:#f1f1f1;
+    justify-content: center;
+    margin-bottom:30px;
+    flex-direction: column;
+   
+    
+}
+.contact-section h2{
+    
+    margin-bottom: 80px;
+    color: transparent;
+    -webkit-text-stroke:1px black;
+    font-size: 400%;
+    z-index:1000;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+
+
+.contact-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.add span{
+    color:black;
+    font-size:200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.add p{
+    color:black;
+    margin-top: 30px;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.g-form{
+    border-radius:0px;
+    color:#F8B207;
+    box-shadow:3px 3px 20px rgb(78, 76, 76);
+    text-transform: capitalize;
+    /* background:#222222; */
+    background-color: black;
+    opacity: 0.8;
+}
+form{
+    padding:30px;
+   
+
+}
+.g-form label{
+    font-size: 12px;
+    text-transform: capitalize;
+    line-height: 0px;
+}
+#name{
+    width: 100%;
+    margin:5px 0px 15px 0px;
+    padding: 10px;
+    border-radius: 0px;
+    border: 2px  solid white;
+    background-color: #f1f1f1;
+    border-radius: 0px;
+
+}
+#email{
+    width:100%;
+    margin:5px 0px 15px 0px;
+    padding: 10px;
+    border-radius: 0px;
+    border: 2px  solid white;
+    background-color: #f1f1f1;
+    border-radius: 0px;
+
+
+}
+.g-form >label{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px 10px;
+    margin-top:5px;
+    border: 2px  solid white;
+    border-radius: 0px;
+    background-color: #f1f1f1;
+    height: 90px;
+
+}
+.submit{
+    width: 40%;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 80%;
+    letter-spacing: 4px;
+    margin-top: 15px;
+    background:white ;
+    border:none;
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+    background-color:#F8B207;
+    border:2px solid #F8B207;
+    border-radius: 0px;
+
+
+
+}
+.submit:hover{
+    background-color: transparent;
+    border:2px solid #F8B207;
+    color:#F8B207;
+    transition: all 0.5s ease-in;
+    transform:scale(1.05);
+
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 1000px) {
+    .contact-information{
+        display: flex;
+        padding:40px  80px;
+    }
+    
+.contact-address{
+    padding-left: 30px;
+    flex: 0.50;
+}
+
+.add span{
+    font-size:80px;
+ 
+}
+.add p{
+    font-size: 30px;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+.g-form{
+    flex: 0.5;
+    padding: 10px 5px;
+    border-radius:30px;
+ 
+  
+}
+}
