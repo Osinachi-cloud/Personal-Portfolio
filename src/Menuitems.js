@@ -25,8 +25,8 @@ export const menuitems = [
     },
     {
       id: 4,
-      text: 'contact',
-      url: '#contact',
+      text: 'socials',
+      url: '#socials',
       cName:'nav-links'
 
     },

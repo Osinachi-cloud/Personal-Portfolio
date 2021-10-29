@@ -13,10 +13,8 @@ function App() {
   return (
     <Router>
     <div className="App">
-      {/* <Navbar/> */}
       <Navtest/>
       <Header/>
-      {/* <Particle/> */}
       <Bio/>
       <Services/>
       <Form/>
