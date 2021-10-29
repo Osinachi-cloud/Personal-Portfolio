@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.short__bio{
+    padding:0px 5%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    height: 100%;
+    padding-right: 10px;
+
+}
+.bio__title {
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 900;
+    line-height: 40px;
+    /* font-family: sans-serif; */
+    letter-spacing: 1px;
+    color:white;
+    font-size: 25px;
+    font-family: ;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+.bio__description{
+    text-align: justify;
+    /* color:rgb(199, 183, 183); */
+    /* color: red; */
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.about{
+    color:#FFCB0A;
+    /* line-height: 40px; */
+    font-size: 16px;
+    text-align: center;
+}
+
+.bio__description:before{
+    content: "";
+    width: 8%;
+    border-bottom: solid 3px #FFCB0A;
+    position: absolute;
+    left: ;
+    margin-top: -20px;
+
+}
+
+
+.socialIcon__box{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin-top: 20px;
+    
+}
+
+.socialIcon__box >a > .MuiSvgIcon-root{
+    font-size: 22px;
+    color:white;
+    
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 1000px) {
+    .short__bio{
+        height: 100%;
+        max-width: 50%;
+        flex: 0.5;
+    
+    }
+    .bio__title {
+        text-align: left;
+        text-transform: capitalize;
+        font-weight: 900;
+        line-height: 40px;
+        /* font-family: sans-serif; */
+        letter-spacing: 1px;
+        color:white;
+        font-size: 25px;
+        font-family: ;
+        font-weight: 1000;
+        margin-bottom: 30px;
+    }
+    .bio__description{
+        text-align: left;
+        font-size:20px;
+        color:grey;
+        line-height:40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about{
+        color:#FFCB0A;
+        /* line-height: 40px; */
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .bio__description:before{
+        content: "";
+        width: 8%;
+        border-bottom: solid 3px #FFCB0A;
+        position: absolute;
+        left: ;
+        margin-top: -20px;
+    
+    }
+    
+    
+    .socialIcon__box{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        margin-top: 20px;
+        
+    }
+    
+    .socialIcon__box >a > .MuiSvgIcon-root{
+        font-size: 22px;
+        color:white;
+        
+    }
+}

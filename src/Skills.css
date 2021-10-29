@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ .skills_container{
+    padding:0px 5%;
+    /* position: relative; */
+    z-index: 1000;
+    /* height: 100%;
+    width: 100%; */
+    text-align: center;
+    /* background-color: #251170; */
+    background-color: black;
+    padding-bottom: 20px;
+
+}
+.skills_subtitle{
+    margin-bottom: 20px;
+    /* margin-top: 80px; */
+    padding-top: 30px;
+    color: white;
+    font-weight: 700;
+}
+.skills_percentage{
+    color:white;
+   
+}
+
+.skills_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-weight: 15px;
+    padding:.5rem 0rem ;
+    margin-bottom: 40px;
+    border-radius: .5rem;
+    z-index: 1000;
+}
+
+.skills_names{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: white;
+
+}
+.skills_bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: .4rem;
+    border-radius: .5rem;
+    z-index:-1000;
+}
+.skills_react{
+    width: 70%;
+    background-color: lightgreen;
+}
+.skills_node{
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.781);
+
+}.skills_express{
+    width: 75%;
+    background-color: orange;
+
+}.skills_reactnative{
+    width: 65%;
+    background-color: #FFCB0A;
+
+}
+.skills_mongodb{
+    width: 80%;
+    background-color: violet;
+}
+ 
+.skills_redux{
+    width: 60%;
+    background-color: rgb(243, 108, 46);
+}
+ 
+.skills_html{
+    width: 90%;
+    background-color: rgb(159, 11, 245);
+}
+.skills_css{
+    width: 70%;
+    background-color: grey;
+}
+.skills_javascript{
+    width: 70%;
+    background-color: rgb(243, 108, 46);
+}
+ 
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .skills_container{
+        flex:0.5;
+        
+        
+    
+    }
+    .skills_subtitle{
+      
+    }
+    .skills_percentage{
+       
+    }
+    
+    .skills_data{
+       
+    }
+    
+    .skills_names{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        font-weight: 600;
+        color: white;
+    
+    }
+    .skills_bar{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: .4rem;
+        border-radius: .5rem;
+        z-index:-1000;
+    }
+    .skills_react{
+        width: 70%;
+        background-color: lightgreen;
+    }
+    .skills_node{
+        width: 65%;
+        background-color: rgba(255, 255, 255, 0.781);
+    
+    }.skills_express{
+        width: 75%;
+        background-color: orange;
+    
+    }.skills_reactnative{
+        width: 65%;
+        background-color: #FFCB0A;
+    
+    }
+    .skills_mongodb{
+        width: 80%;
+        background-color: violet;
+    }
+     
+    .skills_redux{
+        width: 60%;
+        background-color: rgb(243, 108, 46);
+    }
+     
+    .skills_html{
+        width: 90%;
+        background-color: rgb(159, 11, 245);
+    }
+    .skills_css{
+        width: 70%;
+        background-color: grey;
+    }
+    .skills_javascript{
+        width: 70%;
+        background-color: rgb(243, 108, 46);
+    }
+     
+}

@@ -1,0 +1,79 @@
+#container{
+    /* width: 1000px; */
+    /* height: 550px; */
+    margin:20px auto ;
+    display: flex;
+    flex-direction: column;
+}
+#container h4{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+#calculator{
+    /* background-color: rgb(230,230,230); */
+    /* box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff; */
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    border-radius: 5px;
+}
+
+
+.operator, .number{
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    float:left;
+    border-radius: 100%;
+    border-width:0;
+    background-color: rgb(230,230,230);
+    box-shadow: 5px 5px 10px #b6acac, -5px 5px 10px #b6acac;
+    font-weight:15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+.number:active, .operator:active {
+    font-size: 13px;
+
+}
+.number:focus, .operator:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    color: white;
+    /* background-color: #5cbdb8; */
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #f8b842;
+    color: white;
+
+}button:nth-child(12){
+    font-size: 20px;
+    background-color: #f59b9b;
+    color: white;
+
+}button:nth-child(16){
+    font-size: 20px;
+    background-color: #155ef1;
+    color: white;
+}button:nth-child(20){
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+#clear{
+    /* background-color: red; */
+    color: white;
+    
+}

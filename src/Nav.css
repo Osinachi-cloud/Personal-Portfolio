@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.top__bar a > .MuiSvgIcon-root{
+    font-size: 40px;
+    color:white;
+    
+}
+.top__bar{
+    position:sticky;
+    z-index: 1100;
+    top:0;
+    background-color: #222222;
+    display: flex;
+    height: 20vh;
+    padding: 0px 5%;
+    /* width: 95%; */
+    justify-content:right;
+    align-items: center;
+    /* padding: 20px 0px 10px 0px; */
+    /* margin-bottom: 40px; */
+
+}
+.name{
+    color:white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    
+
+}
+.header> .top__bar> .burger > .MuiSvgIcon-root{
+    font-size: 35px;
+    color:white;
+}
+
+@media only screen and (min-width: 768px) {
+    
+  
+}
+
+@media only screen and (min-width: 1000px) {
+    .top__bar a > .MuiSvgIcon-root{
+        font-size: 40px;
+        color:white;
+        display: none;
+        
+    }
+    .menu{
+        display: flex;
+        margin-left: 50px;
+    }
+}
