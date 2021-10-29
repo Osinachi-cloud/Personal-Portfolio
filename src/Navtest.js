@@ -25,7 +25,7 @@ class Navtest extends Component {
                     {menuitems.map((item, index)=> {
                        return (
                             <li key={index}>
-                                <a  href="" className={item.cName}
+                                <a   className={item.cName}
                                 href={item.url}>
                                     {item.text}
                                 </a>

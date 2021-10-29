@@ -56,13 +56,13 @@ function Form() {
 
                             <h1>Contact Info</h1>
                             <label for="">Name</label>
-                            <input type="text" name="" placeholder="Name" id="name" name="name"/>
+                            <input type="text"  placeholder="Name" id="name" name="name"/>
                             <label for="">Email</label>
-                            <input type="text" name="" placeholder="Email" id="email" name="email"/>
+                            <input type="text"  placeholder="Email" id="email" name="email"/>
                         
 
                             <label for="">Message</label>
-                            <textarea name="" id="message" cols="30" placeholder="Message" rows="10" name="message"></textarea>
+                            <textarea  id="message" cols="30" placeholder="Message" rows="10" name="message"></textarea>
                             <input className="submit" type="submit" value="submit"/>
 
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import FacebookIcon from '@material-ui/icons/Facebook';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';

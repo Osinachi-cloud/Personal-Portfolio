@@ -27,7 +27,7 @@
     text-align: center;
     width:70vw;
     /* background-color: red; */
-    justify-content: end;
+    justify-content: flex-end;
     /* margin-left: 1rem; */
     
 }

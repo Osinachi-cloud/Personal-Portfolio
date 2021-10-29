@@ -1,10 +1,6 @@
 import React from 'react'
 import './Header.css'
-import Typical from 'react-typical'
-import { Link } from 'react-router-dom';
-import { jsPDF } from "jspdf";
-import IconButton from '@material-ui/core/IconButton';
-
+import Typical from 'react-typical';
 
 
 
