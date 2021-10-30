@@ -55,13 +55,13 @@ function Form() {
                     <form onSubmit={sendEmail}>
 
                             <h1>Contact Info</h1>
-                            <label for="">Name</label>
+                            <label htmlFor="">Name</label>
                             <input type="text"  placeholder="Name" id="name" name="name"/>
-                            <label for="">Email</label>
+                            <label htmlFor="">Email</label>
                             <input type="text"  placeholder="Email" id="email" name="email"/>
                         
 
-                            <label for="">Message</label>
+                            <label htmlFor="">Message</label>
                             <textarea  id="message" cols="30" placeholder="Message" rows="10" name="message"></textarea>
                             <input className="submit" type="submit" value="submit"/>
 

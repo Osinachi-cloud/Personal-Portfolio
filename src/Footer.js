@@ -18,7 +18,7 @@ function Nav() {
 
             <div id="keyboard">
               
-                <button class="operator" id="clear">
+                <button className="operator" id="clear">
                     <Link to="/https://web.facebook.com/uchenna.osinachi.9">
                                 <FacebookOutlinedIcon style={{color:"#3b5998"}}/>
                     </Link> 
@@ -27,18 +27,18 @@ function Nav() {
             
 
 
-                <button class="operator" id="backspace">
+                <button className="operator" id="backspace">
                     <Link to="https://www.linkedin.com/in/uchenna-ogbodo-48323b1b4/">
                                 <LinkedInIcon style={{color:"#0077b5"}}/>
                     </Link> 
                 </button>
-                <button class="operator" id="%">
+                <button className="operator" id="%">
                     <Link to="https://github.com/Osinachi-cloud">
                                 <GitHubIcon style={{color:"black"}}/>
                     </Link> 
 
                 </button>
-                <button class="operator" id="/">
+                <button className="operator" id="/">
                     <Link to="https://www.youtube.com/channel/UCGav2-7WtEQdwH-lwabIbUA">
                             <YouTubeIcon style={{color:"red"}} />
                     </Link> 
@@ -52,7 +52,10 @@ function Nav() {
             </div>
 
         </div>
-        <h4>CopyRight-@Osinachi</h4>
+        <div className="copy-right">
+                <p>CopyRight-@Osinachi</p>
+
+        </div>
     </div>
     
 

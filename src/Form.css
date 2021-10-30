@@ -17,7 +17,7 @@
     margin-bottom: 80px;
     color: transparent;
     -webkit-text-stroke:1px black;
-    font-size: 400%;
+    font-size: 300%;
     z-index:1000;
     text-align: center;
     margin-top: 50px;
@@ -58,6 +58,7 @@
     /* background:#222222; */
     background-color: black;
     opacity: 0.8;
+ 
 }
 form{
     padding:30px;
@@ -135,7 +136,11 @@ textarea{
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+   .contact-information{
+    padding-left: 5px;
+    padding-right: 5px;
+   }
   
 }
 

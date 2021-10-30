@@ -11,13 +11,17 @@ import Footer from './Footer';
 
 function App() {
   return (
+
     <Router>
     <div className="App">
+      <div className="wrapper">
       <Navtest/>
       <Header/>
       <Bio/>
       <Services/>
       <Form/>
+      </div>
+
       <Footer/>
 
      
