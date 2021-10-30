@@ -26,11 +26,11 @@
 }
 .bio__description{
     text-align: justify;
-    font-weight: 200;
+    font-weight: 400;
     margin-top: 0;
     font-size: 12px;
     line-height: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, sans-serif;
 
 
 }
