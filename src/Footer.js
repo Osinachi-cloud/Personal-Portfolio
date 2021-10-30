@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
     return (
       
-        <div id="container services">
+        <div id="socials">
         <div id="calculator">
            
 

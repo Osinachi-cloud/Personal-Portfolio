@@ -24,18 +24,11 @@ export const menuitems = [
       cName:'nav-links'
     },
     {
-      id: 4,
+      id: 5,
       text: 'socials',
       url: '#socials',
       cName:'nav-links'
 
-    },
-    {
-        id: 4,
-        text: 'Projects',
-        url: '#projects',
-        cName:'nav-links-mobile'
-
-      },
+    }
   ]
   

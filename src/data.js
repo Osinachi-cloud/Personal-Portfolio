@@ -21,8 +21,8 @@ export const links = [
     },
     {
         id: 4,
-        text: 'Projects',
-        url: '#projects',
+        text: 'socials',
+        url: '#socials',
       },
   ]
   

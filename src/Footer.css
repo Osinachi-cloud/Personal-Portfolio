@@ -1,4 +1,4 @@
-#container{
+#socials{
     /* width: 1000px; */
     /* height: 550px; */
     margin:20px auto ;
@@ -6,21 +6,19 @@
     flex-direction: column;
 }
 .copy-right{
-    margin-top: 30px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
-.container p{
+.copy-right p{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: 100;
     letter-spacing: 3px;
     font-size: 18px;
 }
 #calculator{
-    /* background-color: rgb(230,230,230); */
-    /* box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff; */
     margin: 0 auto;
     top: 20px;
     position: relative;

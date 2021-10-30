@@ -20,6 +20,7 @@ class Navtest extends Component {
                 <h1 className="navbar-logo">Cymark</h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                    <i className="fas fa-times"></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
                     {menuitems.map((item, index)=> {
