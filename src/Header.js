@@ -1,10 +1,25 @@
 import React from 'react'
+import  jsPDF  from "jspdf";
+import { Button } from 'reactstrap';
 import './Header.css'
 import Typical from 'react-typical';
+import logo from './osinachi.png';
+
 
 
 
 function Header() {
+
+    const pdfGenerate = ()=>{
+        var doc = new jsPDF('landscape','px','a4','false');
+        doc.addImage(logo, 'PNG', 65,20,500,400)
+        doc.addPage()
+        doc.text(120,410,'Name')
+        doc.save('osinachi.png')
+    }
+
+
+
     return (
         <div className="header" >
        
@@ -59,8 +74,9 @@ function Header() {
                         </div>
 
                         <div className="buttons">
-                            <button className="get__resume">Get resume</button>
+                            <Button onClick={pdfGenerate} className="get__resume">Get resume</Button>
                             <button className="hire__me">hire me</button>
+                            {/* <Button onClick={pdfGenerate}>download PDF</Button> */}
                         </div>
 
 

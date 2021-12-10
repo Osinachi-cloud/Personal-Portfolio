@@ -3,7 +3,6 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import YouTubeIcon from '@material-ui/icons/YouTube';
-import { Link } from 'react-router-dom';
 import './Shortbio.css'
 
 function Shortbio() {
@@ -28,18 +27,18 @@ function Shortbio() {
             <div className="socialIcon__box">
 
             
-                    <Link to="/https://web.facebook.com/uchenna.osinachi.9">
-                            <FacebookIcon/>
-                    </Link> 
-                    <Link to="https://www.linkedin.com/in/uchenna-ogbodo-48323b1b4/">
+                    <a href="https://web.facebook.com/uchenna.osinachi.9">
+                            <FacebookIcon/> 
+                    </a> 
+                    <a href="https://www.linkedin.com/in/uchenna-ogbodo-48323b1b4/">
                             <LinkedInIcon/>
-                    </Link> 
-                    <Link to="https://github.com/Osinachi-cloud">
+                    </a> 
+                    <a href="https://github.com/Osinachi-cloud">
                             <GitHubIcon/>
-                    </Link> 
-                    <Link to="https://www.youtube.com/channel/UCGav2-7WtEQdwH-lwabIbUA">
+                    </a> 
+                    <a href="https://www.youtube.com/channel/UCGav2-7WtEQdwH-lwabIbUA">
                             <YouTubeIcon/>
-                    </Link> 
+                    </a> 
             
 
             </div>
