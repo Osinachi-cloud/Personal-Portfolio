@@ -29,7 +29,7 @@ function Form() {
             <div className="contact-section" id="contact"
              style={{
                 //   backgroundImage: "url(/andrew.jpg)",
-                backgroundImage: "url(/globe.jpg)",
+                backgroundImage: "url(/nasa.jpg)",
                   backgroundPosition:'1300px', 
                   backgroundSize:'cover' ,
                   display:'flex'}}>

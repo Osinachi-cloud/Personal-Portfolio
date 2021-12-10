@@ -21,9 +21,11 @@ function Services() {
 
                             <div className="second">
                                 <h2> REACT </h2>
+                                <br/>
+                                <br/> 
                                 {/* <h3> Step 1 </h3> */}
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Build Responsive and Scalable Web Apps.
 
                                 </p>
                             </div>
@@ -44,10 +46,10 @@ function Services() {
 
                             <div className="second">
                                 <h2> WORDPRESS </h2>
-                                {/* <h3> Step 2 </h3> */}
+                                <br/>
+                                <br/> 
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+                                    Build Responsive Content management System Apps.
                                 </p>
                             </div>
                         </div>
@@ -67,9 +69,9 @@ function Services() {
 
                                     <div className="second">
                                         <h2> MOBILE</h2>
-                                        <h3>  </h3>
+                                        <br/> <br/>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                           Build mobile cross-platform apps for Android and IOS.
 
                                         </p>
                                     </div>

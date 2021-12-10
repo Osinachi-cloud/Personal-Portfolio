@@ -18,9 +18,8 @@ function Shortbio() {
         <p className="bio__description">
         <br/>
 
-            I am a Software Enginner currently at Decagon with Knowledge in JAVASCRIPT,
-             REACT, NODE JS, and JAVA and AGILE. I am really enthusiastic about learning new technologies
-            and I am quite futuristic about providing global solutions anywhere anytime. 
+            I am a Software Enginner currently at Decagon with Knowledge in JAVA, Javascript
+             REACT, and Spring, SQL. <br/> I Passionately look forward to working in an environment that massively promotes career Growth in TECH.
  
         
             

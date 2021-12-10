@@ -18,11 +18,13 @@
     /* background-color:#222222 ; */
 	background-color: black;
 }
+.second h2{
+	font-size: 12px;
+}
 .services h2{
 	margin-bottom: 40px;
 	margin-top: 40px;
-    color: transparent;
-	-webkit-text-stroke:1px white;
+    color:white;
 	font-size: 300%;
 	z-index:1000;
 }
@@ -127,7 +129,7 @@
 
 .container .card .content p{
 	font-size: 1em;
-    color: #FFCB0A ;
+    color: #DAB489 ;
     font-weight: 100;
     /* opacity: 0.7; */
     font-weight: 300;
@@ -172,6 +174,7 @@
 
 .container .card:hover .content .second{
 	display: block;
+	font-size: 14px;
 }
 @media only screen and (min-width: 768px) {
   

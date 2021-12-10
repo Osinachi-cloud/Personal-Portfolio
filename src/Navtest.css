@@ -12,17 +12,17 @@
 }
 .navbar-logo{
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 2px;
     justify-self: start;
-    font-weight: 400;
+    font-weight: 600;
     margin-left:20px;
     cursor:pointer;
 }
 .nav-menu{
     display: flex;
     grid-template-columns: repeat(5,auto);
-    grid-gap: 3px;
+    grid-gap: 10px;
     list-style-type: none;
     text-align: center;
     width:70vw;

@@ -6,21 +6,20 @@
 .contact-section{
     display:flex;
     background-color:#f1f1f1;
+    background-repeat: repeat;
     justify-content: center;
+    /* align-items: center; */
     margin-bottom:30px;
     flex-direction: column;
+    border-top:1px solid grey;
+    padding-bottom:20px;
+    height:100vh;
    
     
 }
 .contact-section h2{
-    
-    margin-bottom: 80px;
-    color: transparent;
-    -webkit-text-stroke:1px black;
-    font-size: 300%;
-    z-index:1000;
-    text-align: center;
-    margin-top: 50px;
+  
+    display:none;
    
 }
 
@@ -36,14 +35,17 @@
 }
 
 .add span{
-    color:black;
+    color:rgb(194, 188, 188);
     font-size:200%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 900;
     letter-spacing: 2px;
+    font-weight:100;
+     
+    
 }
 .add p{
-    color:black;
+    color:rgb(124, 121, 121);
     margin-top: 30px;
     font-size: 150%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -52,12 +54,14 @@
 }
 .g-form{
     border-radius:0px;
-    color:#F8B207;
+    /* color:#F8B207; */
+    color: #dda96d;
     box-shadow:3px 3px 20px rgb(78, 76, 76);
     text-transform: capitalize;
     /* background:#222222; */
     background-color: black;
     opacity: 0.8;
+ 
  
 }
 form{
@@ -120,8 +124,9 @@ textarea{
     color:black;
     font-weight: 700;
     cursor: pointer;
-    background-color:#F8B207;
-    border:2px solid #F8B207;
+    /* background-color:#F8B207; */
+    background-color: #DAB489;
+    border:2px solid #DAB489;
     border-radius: 0px;
 
 
@@ -129,8 +134,8 @@ textarea{
 }
 .submit:hover{
     background-color: transparent;
-    border:2px solid #F8B207;
-    color:#F8B207;
+    border:2px solid #DAB489;
+    color:#DAB489;
     transition: all 0.5s ease-in;
     transform:scale(1.05);
 
@@ -141,6 +146,7 @@ textarea{
     padding-left: 5px;
     padding-right: 5px;
    }
+
   
 }
 
@@ -157,12 +163,15 @@ textarea{
 
 .add span{
     font-size:80px;
+    color:rgb(194, 188, 188);
+    font-weight:100;
  
 }
 .add p{
     font-size: 30px;
     margin-top: -15px;
     margin-left: 20px;
+    color:rgb(148, 143, 143);
 }
 .g-form{
     flex: 0.5;
@@ -170,5 +179,17 @@ textarea{
     border-radius:30px;
  
   
+}
+.contact-section h2{
+  
+    /* color: transparent; */
+    /* -webkit-text-stroke:1px white; */
+    color: white;
+    font-size: 300%;
+    z-index:1000;
+    text-align: center;
+    margin-top: 0;
+    display:block;
+   
 }
 }

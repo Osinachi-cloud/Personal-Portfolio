@@ -85,16 +85,17 @@ margin-top: 30px;
    background-color: transparent; 
   border: 2px solid white;
   margin-left: 10px;
+  cursor: pointer;
+  color:#d6a063;
 
 }
 .buttons > .get__resume{
     color: white;
-    border: 2px solid #FFCB0A ;
+    border: 2px solid #d6a063 ;
+    cursor: pointer;
   
 }
-.summary__container{
-   
-}
+
 
 @media only screen and (min-width: 768px) {
   

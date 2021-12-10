@@ -35,7 +35,7 @@
 
 }
 .about{
-    color:#FFCB0A;
+    color:#DAB489;
     /* line-height: 40px; */
     font-size: 16px;
     text-align: center;
@@ -44,7 +44,7 @@
 .bio__description:before{
     content: "";
     width: 8%;
-    border-bottom: solid 3px #FFCB0A;
+    border-bottom: solid 3px #DAB489;
     position: absolute;
     left: 5%;
     /* margin-top: -20px; */
@@ -68,8 +68,8 @@
 @media only screen and (min-width: 320px) {
     .bio__description{
         text-align: left;
-        font-size:17px;
-        color:grey;
+        font-size:16px;
+        color:#C7B7B7;
         line-height:40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -108,13 +108,14 @@
     }
     .bio__description{
         text-align: left;
-        font-size:20px;
-        color:grey;
+        font-size:16px;
+        color:#d8d1d1;
+       
         line-height:40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .about{
-        color:#FFCB0A;
+        color:#DAB489;
         /* line-height: 40px; */
         font-size: 16px;
         text-align: center;
@@ -123,7 +124,7 @@
     .bio__description:before{
         content: "";
         width: 8%;
-        border-bottom: solid 3px #FFCB0A;
+        border-bottom: solid 3px #DAB489;
         position: absolute;
         left: ;
         margin-top: -20px;
