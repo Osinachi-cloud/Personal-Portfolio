@@ -95,6 +95,10 @@ margin-top: 30px;
     cursor: pointer;
   
 }
+.buttons > .hire__me a{
+   color:#d6a063;
+   text-decoration: none; 
+ }
 
 
 @media only screen and (min-width: 768px) {

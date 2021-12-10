@@ -75,7 +75,7 @@ function Header() {
 
                         <div className="buttons">
                             <Button onClick={pdfGenerate} className="get__resume">Get resume</Button>
-                            <button className="hire__me">hire me</button>
+                            <button  className="hire__me"><a href="#contact">Hire Me</a></button>
                             {/* <Button onClick={pdfGenerate}>download PDF</Button> */}
                         </div>
 
