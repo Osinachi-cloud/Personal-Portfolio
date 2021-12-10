@@ -18,7 +18,7 @@ function Nav() {
             <div id="keyboard">
               
                 <button className="operator" id="clear">
-                    <a href="/https://web.facebook.com/uchenna.osinachi.9">
+                    <a href="https://web.facebook.com/uchenna.osinachi.9">
                                 <FacebookOutlinedIcon style={{color:"#3b5998"}}/>
                     </a> 
 
