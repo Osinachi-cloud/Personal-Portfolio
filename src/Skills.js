@@ -16,7 +16,7 @@ function Skills() {
                  <div className="skills_data">
                      <div className="skills_names">
 
-                         <span className="skills_name">HTML</span>
+                         <span className="skills_name">Java EE</span>
                      </div>
                      <div>
                         <span className="skills_percentage">90% </span>
@@ -28,7 +28,7 @@ function Skills() {
                  <div className="skills_data">
                      <div className="skills_names">
 
-                         <span className="skills_name">CSS</span>
+                         <span className="skills_name">Spring</span>
                      </div>
                      <div>
                         <span className="skills_percentage">70% </span>
@@ -50,7 +50,7 @@ function Skills() {
                  <div className="skills_data">
                      <div className="skills_names">
 
-                         <span className="skills_name">Java</span>
+                         <span className="skills_name">React</span>
                      </div>
                      <div>
                         <span className="skills_percentage">70% </span>
@@ -64,7 +64,7 @@ function Skills() {
                  <div className="skills_data">
                     <div className="skills_names">
 
-                        <span className="skills_name">Spring</span>
+                        <span className="skills_name">React Native</span>
                     </div>
                     <div>
                        <span className="skills_percentage">65%</span>
@@ -77,7 +77,7 @@ function Skills() {
                 <div className="skills_data">
                     <div className="skills_names">
 
-                        <span className="skills_name">React</span>
+                        <span className="skills_name">Redux</span>
                     </div>
                     <div>
                        <span className="skills_percentage">75%</span>
@@ -101,7 +101,7 @@ function Skills() {
                 <div className="skills_data">
                     <div className="skills_names">
 
-                        <span className="skills_name">SQL</span>
+                        <span className="skills_name">Node JS</span>
                     </div>
                     <div>
                        <span className="skills_percentage">80% </span>
@@ -112,7 +112,7 @@ function Skills() {
                 <div className="skills_data">
                     <div className="skills_names">
 
-                        <span className="skills_name">React Native</span>
+                        <span className="skills_name">SQL</span>
                     </div>
                     <div>
                        <span className="skills_percentage">60% </span>
