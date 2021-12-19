@@ -65,7 +65,7 @@ function Header() {
                         </div>
 
                         <div className="buttons">
-                            <button  className="get__resume"><a href="ogbodo-uchenna.pdf">View Resume</a></button>
+                            <button  className="get__resume"><a href="ogbodo-uchenna.pdf" target="_blank">View Resume</a></button>
                             <button  className="hire__me"><a href="#contact">Hire Me</a></button>
                             
                         </div>
