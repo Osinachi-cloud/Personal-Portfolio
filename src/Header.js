@@ -1,22 +1,13 @@
 import React from 'react'
 import  jsPDF  from "jspdf";
-import { Button } from 'reactstrap';
 import './Header.css'
 import Typical from 'react-typical';
-import cv from './ogbodo-uchenna.pdf';
 
 
 
 
 function Header() {
 
-    const pdfGenerate = ()=>{
-        var doc = new jsPDF('landscape','px','a4','false');
-        // doc.addImage(cv, 'PDF', 65,20,500,400)
-        doc.addPage(cv, 'PDF')
-        // doc.text(120,410,'Name')
-        doc.save('ogbodo-uchenna.pdf')
-    }
 
 
 
