@@ -3,7 +3,7 @@ import  jsPDF  from "jspdf";
 import { Button } from 'reactstrap';
 import './Header.css'
 import Typical from 'react-typical';
-import logo from './osinachi.png';
+import cv from './ogbodo-uchenna.pdf';
 
 
 
@@ -12,10 +12,10 @@ function Header() {
 
     const pdfGenerate = ()=>{
         var doc = new jsPDF('landscape','px','a4','false');
-        doc.addImage(logo, 'PNG', 65,20,500,400)
-        doc.addPage()
-        doc.text(120,410,'Name')
-        doc.save('osinachi.png')
+        // doc.addImage(cv, 'PDF', 65,20,500,400)
+        doc.addPage(cv, 'PDF')
+        // doc.text(120,410,'Name')
+        doc.save('ogbodo-uchenna.pdf')
     }
 
 
@@ -74,9 +74,9 @@ function Header() {
                         </div>
 
                         <div className="buttons">
-                            <Button onClick={pdfGenerate} className="get__resume">Get resume</Button>
+                            <button  className="get__resume"><a href="ogbodo-uchenna.pdf">View Resume</a></button>
                             <button  className="hire__me"><a href="#contact">Hire Me</a></button>
-                            {/* <Button onClick={pdfGenerate}>download PDF</Button> */}
+                            
                         </div>
 
 
