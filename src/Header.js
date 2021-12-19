@@ -1,5 +1,5 @@
 import React from 'react'
-import  jsPDF  from "jspdf";
+// import  jsPDF  from "jspdf";
 import './Header.css'
 import Typical from 'react-typical';
 
