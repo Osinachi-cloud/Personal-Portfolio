@@ -4,10 +4,38 @@ import './Services.css'
 function Services() {
     return (
     <div className="services" id="services">
-            <h2>My Services</h2>
+            <h2>My Projects</h2>
 
         <div className="container">
-                    <div className="card">
+                    <div className="card" >
+                        <div className="content">
+                            <div className="first">
+                                <div className="imgBx">
+                                    <img src="/fullstack.png" alt="what"/>
+                                </div>
+                                <div className="contentBx">
+                                    <h3> FULLSTACK</h3>
+                                    <p> ssecured Websites</p>
+                                </div>
+                            </div>
+
+                            <div className="second">
+                                <h2> FULLSTACK </h2>
+                                <br/>
+                                <br/> 
+                                {/* <h3> Step 1 </h3> */}
+                                <p>
+                                    Build efficient and Scalable Web Apps.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div className="card" >
                         <div className="content">
                             <div className="first">
                                 <div className="imgBx">
@@ -32,20 +60,23 @@ function Services() {
                         </div>
                     </div>
 
+
+
+
                     <div className="card">
                         <div className="content">
                             <div className="first">
                                 <div className="imgBx">
-                                    <img src="/wordpress1.png" alt="what"/>
+                                    <img src="/java.png" alt="what"/>
                                 </div>
                                 <div className="contentBx">
-                                    <h3> WORDPRESS</h3>
-                                    <p> Style Your Web </p>
+                                    <h3> JAVA EE</h3>
+                                    <p> Java Servelet </p>
                                 </div>
                             </div>
 
                             <div className="second">
-                                <h2> WORDPRESS </h2>
+                                <h2> JAVA SERVELET </h2>
                                 <br/>
                                 <br/> 
                                 <p>
@@ -77,6 +108,65 @@ function Services() {
                                     </div>
                         </div>
                     </div>
+
+
+
+
+                    <div className="card">
+                        <div className="content">
+                                    <div className="first">
+                                        <div className="imgBx">
+                                            <img src="/springboot.png" alt="what"/>
+                                        </div>
+                                        <div className="contentBx">
+                                            <h3> Springboot</h3>
+                                            <p> Interactive Web </p>
+                                        </div>
+                                    </div>
+
+                                    <div className="second">
+                                        <h2> MOBILE</h2>
+                                        <br/> <br/>
+                                        <p>
+                                           Build mobile cross-platform apps for Android and IOS.
+
+                                        </p>
+                                    </div>
+                        </div>
+                    </div>
+
+
+
+                    <div className="card">
+                        <div className="content">
+                                    <div className="first">
+                                        <div className="imgBx">
+                                            <img src="/angular.png" alt="what"/>
+                                        </div>
+                                        <div className="contentBx">
+                                            <h3> MERN STACK</h3>
+                                            <p> Interactive Web </p>
+                                        </div>
+                                    </div>
+
+                                    <div className="second">
+                                        <h2> MOBILE</h2>
+                                        <br/> <br/>
+                                        <p>
+                                           Build mobile cross-platform apps for Android and IOS.
+
+                                        </p>
+                                    </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
     </div> 
 
 </div>

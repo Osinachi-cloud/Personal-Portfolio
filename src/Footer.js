@@ -18,7 +18,7 @@ function Nav() {
             <div id="keyboard">
               
                 <button className="operator" id="clear">
-                    <a href="https://web.facebook.com/uchenna.osinachi.9">
+                    <a href="https://www.facebook.com/groups/626118741966406/?multi_permalinks=627218235189790&notif_id=1641750841948212&notif_t=feedback_reaction_generic&ref=notif">
                                 <FacebookOutlinedIcon style={{color:"#3b5998"}}/>
                     </a> 
 
@@ -27,7 +27,7 @@ function Nav() {
 
 
                 <button className="operator" id="backspace">
-                    <a href="https://www.linkedin.com/in/uchenna-ogbodo-48323b1b4/">
+                    <a href="https://www.linkedin.com/in/uchenna-ogbodo/">
                                 <LinkedInIcon style={{color:"#0077b5"}}/>
                     </a> 
                 </button>

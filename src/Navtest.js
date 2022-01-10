@@ -17,7 +17,14 @@ class Navtest extends Component {
     render() {
         return (
             <nav className="navbarItems" id="home">
-                <h1 className="navbar-logo">Cymark</h1>
+
+                <div>
+                     <p className="email"><i className="fa fa-envelope"></i>{" " + " " + " "}<span >ogbodouchenna1425@gmail.com</span></p>
+
+                    <h1 className="navbar-logo">Cymark</h1>
+                </div>
+              
+
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                     

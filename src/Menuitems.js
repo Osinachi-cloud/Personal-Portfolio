@@ -13,7 +13,7 @@ export const menuitems = [
     },
     {
       id: 3,
-      text: 'services',
+      text: 'Projects',
       url: '#services',
       cName:'nav-links'
     },

@@ -56,42 +56,42 @@
     z-index:-1000;
 }
 .skills_react{
-    width: 70%;
+    width: 100%;
     background-color: lightgreen;
 }
 .skills_node{
-    width: 65%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.781);
 
 }.skills_express{
-    width: 75%;
+    width: 100%;
     background-color: orange;
 
 }.skills_reactnative{
-    width: 65%;
+    width: 100%;
     background-color: #FFCB0A;
 
 }
 .skills_mongodb{
-    width: 80%;
+    width: 100%;
     background-color: violet;
 }
  
 .skills_redux{
-    width: 60%;
+    width: 100%;
     background-color: rgb(243, 108, 46);
 }
  
 .skills_html{
-    width: 90%;
+    width:100%;
     background-color: rgb(159, 11, 245);
 }
 .skills_css{
-    width: 70%;
+    width: 100%;
     background-color: grey;
 }
 .skills_javascript{
-    width: 70%;
+    width: 100%;
     background-color: rgb(243, 108, 46);
 }
  
@@ -135,42 +135,42 @@
         z-index:-1000;
     }
     .skills_react{
-        width: 70%;
+        width: 100%;
         background-color: lightgreen;
     }
     .skills_node{
-        width: 65%;
+        width: 100%;
         background-color: rgba(255, 255, 255, 0.781);
     
     }.skills_express{
-        width: 75%;
+        width: 100%;
         background-color: orange;
     
     }.skills_reactnative{
-        width: 65%;
+        width: 100%;
         background-color: #FFCB0A;
     
     }
     .skills_mongodb{
-        width: 80%;
+        width: 100%;
         background-color: violet;
     }
      
     .skills_redux{
-        width: 60%;
+        width: 100%;
         background-color: rgb(243, 108, 46);
     }
      
     .skills_html{
-        width: 90%;
+        width: 100%;
         background-color: rgb(159, 11, 245);
     }
     .skills_css{
-        width: 70%;
+        width: 100%;
         background-color: grey;
     }
     .skills_javascript{
-        width: 70%;
+        width: 100%;
         background-color: rgb(243, 108, 46);
     }
      
