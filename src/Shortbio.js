@@ -22,6 +22,8 @@ function Shortbio() {
         I then aspired to futher in software Engineering. 
          2019, I realized that people around me also developed interest in tech and that inspired me to teach people.
         I have taught about 10 people, from beginner level to junior level and I still aspire to mentor thousands more.
+        <br/> as for my hobies,I like playing the piano and the bass. I also like critical analysis, breaking down big moulds
+         into dissolvable particles as my problem solving principle. I just find myself doing it with software the most.
         
             
         </p>
