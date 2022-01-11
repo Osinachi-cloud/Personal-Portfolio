@@ -57,10 +57,11 @@ function Header() {
                         <div className="intro">Ogbodo Uchenna <span></span></div>
                         <br/>
                         <div className="short__description">
-                        I am a Software Developer with three years 
-                        tangible experience in web development
-                        technology, Agile Leadership, enthusiastic about 
-                        intelligence and Robotics.
+                        Software Enginner with Proficiency in JAVA, Javascript
+                        REACT, Spring and SQL. I Passionately look forward to a creative working in team that will massively promote my creativity and career Growth.
+                        <br/> <br/>When you are tough on yourself , life is going to be infinitely easier on you!<br/> -Zig Ziglar
+
+ 
 
                         </div>
 

@@ -12,14 +12,16 @@ function Shortbio() {
             <span className="about"> About  Me</span>
         </div>
         
-        <h1 className="bio__title">I am a full stack MERN Developer  </h1>
+        <h1 className="bio__title">I am a Software Developer with a passion to teach </h1>
         
         <p className="bio__description">
         <br/>
-
-            I am a Software Enginner currently at Decagon with Knowledge in JAVA, Javascript
-             REACT, and Spring, SQL. <br/> I Passionately look forward to working in an environment that massively promotes career Growth in TECH.
- 
+        My name is Ogbodo Uchenna. I mostly adressed by my other name, Osinachi. 2015, During my University days
+         at university of Port-Harcourt, Nigeria, studing Chemical Engineering
+        I gained experience with robotics Engineering as an Intern which inspired my passion for technology. 
+        I then aspired to futher in software Engineering. 
+         2019, I realized that people around me also developed interest in tech and that inspired me to teach people.
+        I have taught about 10 people, from beginner level to junior level and I still aspire to mentor thousands more.
         
             
         </p>
