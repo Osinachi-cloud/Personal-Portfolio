@@ -19,7 +19,7 @@ class Navtest extends Component {
             <nav className="navbarItems" id="home">
 
                 <div>
-                     <p className="email"><i className="fa fa-envelope"></i>{" " + " " + " "}<span >ogbodouchenna1425@gmail.com</span></p>
+                     <p className="email"><i className="fa fa-envelope"></i>{" "}<span >ogbodouchenna1425@gmail.com</span></p>
 
                     <h1 className="navbar-logo">Cymark</h1>
                 </div>
