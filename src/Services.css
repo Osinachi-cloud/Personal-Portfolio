@@ -216,7 +216,7 @@
 @media only screen and (max-width: 1000px) {
 
 	.container{
-		padding-left: 300px;
+		padding-left: 0;
 		/*overflow:hidden;
 
 		display:flex;
