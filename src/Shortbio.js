@@ -16,12 +16,12 @@ function Shortbio() {
         
         <p className="bio__description">
         <br/>
-        My name is Ogbodo Uchenna. I mostly adressed by my other name, Osinachi. 2015, During my University days
-         at university of Port-Harcourt, Nigeria, studing Chemical Engineering
-        I gained experience with robotics Engineering as an Intern which inspired my passion for technology. 
-        I then aspired to futher in software Engineering. 
-         2019, I realized that people around me also developed interest in tech and that inspired me to teach people.
-        I have taught about 10 people, from beginner level to junior level and I still aspire to mentor thousands more.
+        My name is Ogbodo Uchenna. I am mostly adressed by my other name, Osinachi. 2015, During my University days
+         at university of Port-Harcourt, Nigeria, studing Chemical Engineering,
+        I gained experience with robotics Engineering as an Intern which ignited my passion for software technology; 
+        I then desided to go futher into software Engineering. 
+         2019, I realized that people around me also developed interest in tech and that inspired me to teach them.
+        I have taught several, from beginner level to junior level and I still aspire to mentor thousands more.
         <br/> as for my hobies,I like playing the piano and the bass. I also like critical analysis, breaking down big moulds
          into dissolvable particles as my problem solving principle. I just find myself doing it with software the most.
         

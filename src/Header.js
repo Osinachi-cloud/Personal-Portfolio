@@ -58,7 +58,7 @@ function Header() {
                         <br/>
                         <div className="short__description">
                         Software Enginner with Proficiency in JAVA, Javascript
-                        REACT, Spring and SQL. I Passionately look forward to a creative working in team that will massively promote my creativity and career Growth.
+                        REACT, Spring, Node and SQL. I eagerly work towards being a great contributor to the world largest Tech ecosystems.
                         <br/> <br/>When you are tough on yourself , life is going to be infinitely easier on you!<br/> -Zig Ziglar
 
  

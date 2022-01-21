@@ -216,26 +216,6 @@
 @media only screen and (max-width: 1000px) {
 
 	.container{
-		padding-left: 0;
-		/*overflow:hidden;
-
-		display:flex;
-		flex-direction:column ;
-		flex-wrap: wrap;
-		height:800px; */
-
-
-
-		/* display: flex;
-		justify-content: left;
-		align-items: center;
-		width: 1300px!important;
-		padding-left:600px!important;
-		padding-right:600px!important;
-		max-height: 400px;
-		z-index: 100;
-		overflow-x: scroll; */
-
 	}
 	.card{
 
