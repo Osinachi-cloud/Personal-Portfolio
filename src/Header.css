@@ -41,8 +41,8 @@ a{
 .short__description{
  color:rgb(199, 183, 183);
  font-weight: 400;
- font-size: 17px;
- text-align: left;
+ font-size: 14px;
+ text-align: justify;
  line-height: 30px;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

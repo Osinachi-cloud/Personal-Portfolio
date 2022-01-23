@@ -12,7 +12,7 @@ function Shortbio() {
             <span className="about"> About  Me</span>
         </div>
         
-        <h1 className="bio__title">I am a Software Developer with a passion to teach </h1>
+        <h1 className="bio__title">I am a Software Developer with a passion to teach</h1>
         
         <p className="bio__description">
         <br/>
@@ -22,7 +22,7 @@ function Shortbio() {
         I then desided to go futher into software Engineering. 
          2019, I realized that people around me also developed interest in tech and that inspired me to teach them.
         I have taught several, from beginner level to junior level and I still aspire to mentor thousands more.
-        <br/> as for my hobies,I like playing the piano and the bass. I also like critical analysis, breaking down big moulds
+        <br/> as for my hobies, I like playing the piano and the bass. I also like critical analysis, breaking down big moulds
          into dissolvable particles as my problem solving principle. I just find myself doing it with software the most.
         
             
