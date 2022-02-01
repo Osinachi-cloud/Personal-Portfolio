@@ -8,7 +8,9 @@ const Skill = () => {
     <section className='my-28  px-5'>
       <header className='text-2xl font-bold pt-10 mb-5'>
         
-        <h1 className="bio__titlex">My Skills</h1>
+        <div className="divider__topic">
+            <span className="about"> My Skills</span>
+        </div>
         <div className="div"></div>
     
         {/* <br/> */}

@@ -27,11 +27,12 @@ body {
     padding-bottom: 20px;
 
     padding:0px 5%;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 50px;
     height: 100%;
     padding-right: 10px;
-    border-top:0.5px solid darkgrey ;
+    border-bottom:0.5px solid darkgrey ;
+
     
 
 }

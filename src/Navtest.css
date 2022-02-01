@@ -84,16 +84,20 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active{
-        background: BLACK;
+        background: black;
         opacity: 0.9;
         left:0;
         opacity: 1;
         transition: all 1s ease;
+        height:86vh;
         z-index: 1;
+        padding-bottom: 60px;
+
     }
     .nav-links{
         text-align: center;
         padding: 2rem;
+        /* background-color: green; */
         width: 100%;
         display: table;
     }

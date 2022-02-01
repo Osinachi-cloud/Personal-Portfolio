@@ -10,6 +10,9 @@
     height: 100%;
     padding-right: 35px;
 
+    border-bottom:0.5px solid darkgrey ;
+
+
 }
 .bio__title {
     text-align: left;
@@ -126,7 +129,7 @@
         text-align: center;
     }
     
-    .bio__description:before{
+    /* .bio__description:before{
         content: "";
         width: 8%;
         border-bottom: solid 3px #DAB489;
@@ -134,7 +137,7 @@
         left: ;
         margin-top: -20px;
     
-    }
+    } */
     
     
     .socialIcon__box{
