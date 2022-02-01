@@ -38,21 +38,21 @@ const Proficient = [
         logo: "./images/icons/css3-original.svg"
     },
     {
-        skill: "CSS 3",
+        skill: "Node",
         logo: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
     },
     {
-        skill: "CSS 3",
+        skill: "Spring",
         logo: "./images/icons/spring-icon.svg"
     },
     {
-        skill: "CSS 3",
+        skill: "Angular",
         logo: "./images/icons/angular-icon.svg"
     },
    
  
     {
-        skill: "CSS 3",   
+        skill: "Next",   
         logo: "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
     },
  
