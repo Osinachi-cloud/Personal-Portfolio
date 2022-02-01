@@ -8,10 +8,10 @@ const Skill = () => {
     <section className='my-28  px-5'>
       <header className='text-2xl font-bold pt-10 mb-5'>
         
-        <h1 className="bio__title">My Skills</h1>
-      
-
-        <br/>
+        <h1 className="bio__titlex">My Skills</h1>
+        <div className="div"></div>
+    
+        {/* <br/> */}
 
 
 

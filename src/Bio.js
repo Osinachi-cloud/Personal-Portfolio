@@ -13,9 +13,19 @@ function Bio() {
 
 
         <div className="bio" id="about">
-                   <Shortbio/>
+            <div className="first-col">
+                 <Shortbio/>
+            </div>
+{/*             
+            <div className="second-col">
+                 <Skill/>
+            </div> */}
+            
+            
+            <div className="second-col">
+                 <Skill/>
+            </div>
                     {/* <Skills/> */}
-                    <Skill/>
         </div>
 
   

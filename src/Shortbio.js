@@ -11,6 +11,7 @@ function Shortbio() {
         <div className="divider__topic">
             <span className="about"> About  Me</span>
         </div>
+        <div className="div"></div>
         
         <h1 className="bio__title">I am a Software Developer with a passion to teach</h1>
         

@@ -8,7 +8,7 @@
     padding-top: 80px;
     padding-bottom: 50px;
     height: 100%;
-    padding-right: 10px;
+    padding-right: 35px;
 
 }
 .bio__title {
@@ -22,7 +22,6 @@
     font-size: 25px;
     font-family: ;
     font-weight: 1000;
-    margin-bottom: 30px;
 }
 .bio__description{
     text-align: justify;
@@ -40,13 +39,19 @@
     font-size: 16px;
     text-align: center;
 }
+.div{
+    width:15%;
+    height:3px;
+    background-color:#DAB489;
+    margin: 25px 0px 10px 0px;
+  }
 
 .bio__description:before{
-    content: "";
+    /* content: "";
     width: 8%;
     border-bottom: solid 3px #DAB489;
     position: absolute;
-    left: 5%;
+    left: 5%; */
     /* margin-top: -20px; */
 
 }
@@ -89,7 +94,6 @@
 @media only screen and (min-width: 1000px) {
     .short__bio{
         height: 100%;
-        max-width: 50%;
         flex: 0.5;
     
     }
@@ -146,4 +150,5 @@
         color:white;
         
     }
+
 }
