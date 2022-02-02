@@ -26,7 +26,7 @@ const Skill = () => {
             {Proficient.map((x, index) =>
               <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label={x.skill} key={index}>
                 <img src={x.logo} alt={x.skill} loading='lazy' className='w-16 mb-1 imgbx'  width='64px' height='64px' />
-                <p style={{fontSize: '12px', textAlign: 'left', color:'white', marginTop:'10px',marginLeft:'40px'}}>{x.skill}</p>
+                <p style={{fontSize: '12px', textAlign: 'left', color:'white', marginTop:'10px'}}>{x.skill}</p>
                 
               </div>
 
