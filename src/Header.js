@@ -35,17 +35,17 @@ function Header() {
                                         steps={[
                                             'Software Dev', 
                                             1000, 
-                                            'Web Developer!', 
+                                            'Java Developer!', 
                                             1000,
-                                            'MERN Stack',
+                                            'React Developer',
                                             1000,
-                                            'Cross Platform Dev',
+                                            'Microservices Dev',
                                             1000,
-                                            'React_Native',
+                                            'SQL Dev',
                                             1000,
-                                            'Frontend Dev',
+                                            'Full Stack Dev',
                                             1000,
-                                            'Your favorite dev',
+                                            'Your favorite Agile dev',
                                             2000
 
                                         ]}
